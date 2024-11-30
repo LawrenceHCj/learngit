@@ -1,0 +1,76 @@
+[0.013s] Invoking command in '/home/lawrencehcj/hcj_ws/build/learning_tf2_cpp': AMENT_PREFIX_PATH=/home/lawrencehcj/hcj_ws/install/turtlesim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lawrencehcj/hcj_ws/install/turtlesim:/home/lawrencehcj/ros2_ws/install/learning_tf2_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/lawrencehcj/hcj_ws/install/turtlesim/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lawrencehcj/hcj_ws/install/turtlesim/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lawrencehcj/hcj_ws/src/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/lawrencehcj/hcj_ws/install/learning_tf2_cpp
+[0.104s] -- The C compiler identification is GNU 11.4.0
+[0.189s] -- The CXX compiler identification is GNU 11.4.0
+[0.198s] -- Detecting C compiler ABI info
+[0.316s] -- Detecting C compiler ABI info - done
+[0.324s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.325s] -- Detecting C compile features
+[0.325s] -- Detecting C compile features - done
+[0.327s] -- Detecting CXX compiler ABI info
+[0.436s] -- Detecting CXX compiler ABI info - done
+[0.444s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.445s] -- Detecting CXX compile features
+[0.445s] -- Detecting CXX compile features - done
+[0.446s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.598s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.702s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.780s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.789s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.805s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.826s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.851s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.893s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.943s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.947s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.071s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.099s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.135s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.145s] -- Looking for pthread.h
+[1.241s] -- Looking for pthread.h - found
+[1.242s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.346s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.347s] -- Found Threads: TRUE  
+[1.424s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[1.440s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.568s] -- Found turtlesim: 1.4.2 (/home/lawrencehcj/hcj_ws/install/turtlesim/share/turtlesim/cmake)
+[1.579s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.630s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.630s] -- Configured cppcheck include dirs: 
+[1.630s] -- Configured cppcheck exclude dirs and/or files: 
+[1.632s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.632s] -- Added test 'lint_cmake' to check CMake code style
+[1.632s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.633s] -- Added test 'uncrustify' to check C / C++ code style
+[1.633s] -- Configured uncrustify additional arguments: 
+[1.633s] -- Added test 'xmllint' to check XML markup files
+[1.635s] -- Configuring done
+[1.647s] -- Generating done
+[1.648s] -- Build files have been written to: /home/lawrencehcj/hcj_ws/build/learning_tf2_cpp
+[1.658s] Invoked command in '/home/lawrencehcj/hcj_ws/build/learning_tf2_cpp' returned '0': AMENT_PREFIX_PATH=/home/lawrencehcj/hcj_ws/install/turtlesim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lawrencehcj/hcj_ws/install/turtlesim:/home/lawrencehcj/ros2_ws/install/learning_tf2_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/lawrencehcj/hcj_ws/install/turtlesim/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lawrencehcj/hcj_ws/install/turtlesim/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lawrencehcj/hcj_ws/src/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/lawrencehcj/hcj_ws/install/learning_tf2_cpp
+[1.658s] Invoking command in '/home/lawrencehcj/hcj_ws/build/learning_tf2_cpp': AMENT_PREFIX_PATH=/home/lawrencehcj/hcj_ws/install/turtlesim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lawrencehcj/hcj_ws/install/turtlesim:/home/lawrencehcj/ros2_ws/install/learning_tf2_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/lawrencehcj/hcj_ws/install/turtlesim/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lawrencehcj/hcj_ws/install/turtlesim/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lawrencehcj/hcj_ws/build/learning_tf2_cpp -- -j2 -l2
+[1.742s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_tf2_broadcaster.dir/src/turtle_tf2_broadcaster.cpp.o[0m
+[15.067s] [100%] [32m[1mLinking CXX executable turtle_tf2_broadcaster[0m
+[15.846s] [100%] Built target turtle_tf2_broadcaster
+[15.874s] Invoked command in '/home/lawrencehcj/hcj_ws/build/learning_tf2_cpp' returned '0': AMENT_PREFIX_PATH=/home/lawrencehcj/hcj_ws/install/turtlesim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lawrencehcj/hcj_ws/install/turtlesim:/home/lawrencehcj/ros2_ws/install/learning_tf2_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/lawrencehcj/hcj_ws/install/turtlesim/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lawrencehcj/hcj_ws/install/turtlesim/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lawrencehcj/hcj_ws/build/learning_tf2_cpp -- -j2 -l2
+[15.957s] Invoking command in '/home/lawrencehcj/hcj_ws/build/learning_tf2_cpp': AMENT_PREFIX_PATH=/home/lawrencehcj/hcj_ws/install/turtlesim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lawrencehcj/hcj_ws/install/turtlesim:/home/lawrencehcj/ros2_ws/install/learning_tf2_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/lawrencehcj/hcj_ws/install/turtlesim/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lawrencehcj/hcj_ws/install/turtlesim/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lawrencehcj/hcj_ws/build/learning_tf2_cpp
+[15.973s] -- Install configuration: ""
+[15.973s] -- Installing: /home/lawrencehcj/hcj_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_broadcaster
+[15.979s] -- Set runtime path of "/home/lawrencehcj/hcj_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/turtle_tf2_broadcaster" to ""
+[15.980s] -- Installing: /home/lawrencehcj/hcj_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch
+[15.980s] -- Installing: /home/lawrencehcj/hcj_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/launch/turtle_tf2_demo.launch.py
+[15.980s] -- Installing: /home/lawrencehcj/hcj_ws/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp
+[15.980s] -- Installing: /home/lawrencehcj/hcj_ws/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp
+[15.980s] -- Installing: /home/lawrencehcj/hcj_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh
+[15.980s] -- Installing: /home/lawrencehcj/hcj_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv
+[15.980s] -- Installing: /home/lawrencehcj/hcj_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh
+[15.980s] -- Installing: /home/lawrencehcj/hcj_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv
+[15.980s] -- Installing: /home/lawrencehcj/hcj_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash
+[15.980s] -- Installing: /home/lawrencehcj/hcj_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh
+[15.981s] -- Installing: /home/lawrencehcj/hcj_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh
+[15.982s] -- Installing: /home/lawrencehcj/hcj_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv
+[15.982s] -- Installing: /home/lawrencehcj/hcj_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv
+[15.982s] -- Installing: /home/lawrencehcj/hcj_ws/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp
+[15.982s] -- Installing: /home/lawrencehcj/hcj_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake
+[15.982s] -- Installing: /home/lawrencehcj/hcj_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake
+[15.982s] -- Installing: /home/lawrencehcj/hcj_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml
+[15.985s] Invoked command in '/home/lawrencehcj/hcj_ws/build/learning_tf2_cpp' returned '0': AMENT_PREFIX_PATH=/home/lawrencehcj/hcj_ws/install/turtlesim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lawrencehcj/hcj_ws/install/turtlesim:/home/lawrencehcj/ros2_ws/install/learning_tf2_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/lawrencehcj/hcj_ws/install/turtlesim/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lawrencehcj/hcj_ws/install/turtlesim/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lawrencehcj/hcj_ws/build/learning_tf2_cpp
